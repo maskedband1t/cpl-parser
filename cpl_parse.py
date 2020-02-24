@@ -52,7 +52,6 @@ def buildTree(node, rel_root):
             buildTree(tempNode, result)
         results = []
 
-#TODO: check this all for fuckiness
 
 def getSupers(nodeName):
     '''
